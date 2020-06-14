@@ -38,7 +38,7 @@ a:active {
 .inner-header {
 	display: -webkit-flex;
 	display: flex;
-	align-items: center-top;
+	align-items: flex-start;
 	padding: 20px;
 	width: 320px;
 	height: 120px;
@@ -63,11 +63,36 @@ a:active {
 	font-size: 24px;
 }
 
+.info {
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+.navigation {
+	width: 340px;
+	margin: 10px;
+}
+
+.navigation-element {
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+
+.navigation-element:hover {
+	background-color: #F6EBFC;
+	border-radius: 5px;
+}
+
 .container {
 	position: absolute;
 	left: 400px;
 	min-width: 700px;
 	width: calc(98% - 400px);
+	height: calc(100% - 40px);
+	overflow-x: hidden;
+	overflow-y: scroll;
 	margin: 20px auto;
 	border-radius: 15px;
 	background-color: #FFFFFF9F;
@@ -80,6 +105,7 @@ a:active {
 .header {
 	font-size: 32px;
 	margin: 20px;
+	width: 200px;
 }
 
 .element {
