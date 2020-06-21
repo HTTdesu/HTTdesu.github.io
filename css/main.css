@@ -105,13 +105,13 @@ a:active {
 }
 
 .container {
-	position: absolute;
+	position: fixed;
 	left: 400px;
-	min-width: 700px;
+	min-width: 600px;
 	width: calc(98% - 400px);
 	height: calc(100% - 40px);
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: auto;
 	margin: 20px auto;
 	border-radius: 15px;
 	background-color: #FFFFFF9F;
